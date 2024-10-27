@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendário</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calendar">
+        <div class="header">
+            <h1 id="monthYear">Outubro 2024</h1>
+            <input type="date" id="datePicker">
+            <button id="prev">Anterior</button>
+            <button id="next">Próximo</button>
+        </div>
+        <div class="days" id="daysContainer">
+            <div class="day-name">Dom</div>
+            <div class="day-name">Seg</div>
+            <div class="day-name">Ter</div>
+            <div class="day-name">Qua</div>
+            <div class="day-name">Qui</div>
+            <div class="day-name">Sex</div>
+            <div class="day-name">Sáb</div>
+            <!-- Os dias serão gerados aqui pelo JavaScript -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
